@@ -1,5 +1,4 @@
 export default defineNuxtConfig({
-
   // @nuxt/devtools
   devtools: {
     enabled: true,
@@ -71,6 +70,7 @@ export default defineNuxtConfig({
     name: 'Dev Edmonton Society',
     strictNuxtContentPaths: true,
   },
+
   ogImage: {
     compatibility: {
       prerender: {
@@ -109,4 +109,6 @@ export default defineNuxtConfig({
       crawlLinks: true,
     },
   },
+
+  compatibilityDate: '2024-09-13',
 })
